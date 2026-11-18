@@ -1,0 +1,17 @@
+
+[project]
+name = "customer-churn-ml"
+version = "0.1.0"
+description = "End-to-end customer churn prediction service"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+eda = [
+    "matplotlib",
+    "seaborn",
+    "ipykernel",
+]
